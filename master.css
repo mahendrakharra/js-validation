@@ -1,0 +1,89 @@
+*{
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial;
+  }
+  .main-div{
+    max-width: 500px;
+    height: auto;
+    background-color: green;
+    color: white;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 5px;
+  }
+  .heading{
+    text-align: center;
+    text-decoration: underline;
+  }
+  .row{
+    width: 100%;
+    height: auto;
+    margin-bottom: 3px;
+  }
+  label{
+    width: 25%;
+    font-size: 18px;
+    font-weight: bolder;
+    float: left;
+  }
+  #input{
+    width: 75%;
+    height: 30px;
+    float: left;
+  }
+  #pass{
+    width: 75%;
+    height: 30px;
+    float: left;
+  }
+  
+  .fix{
+    clear:both;
+  }
+  #eye{
+    float: right;
+    margin-right: 10px;
+    margin-top: -22px;
+    position: relative;
+    color: black;
+    z-index: 2;
+  }
+  input[type="submit"]{
+    width: 25%;
+    height: 35px;
+    background-color: yellowgreen;
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: 15px;
+    border-color: yellowgreen;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover{
+    background-color: brown;
+    border-color: brown;
+    color: white;
+  }
+  
+  @media screen and (max-width:450px){
+    label{
+      width: 100%;
+      font-size: 18px;
+      font-weight: bolder;
+    }
+    #input{
+      width: 100%;
+      height: 30px;
+    }
+    #pass{
+      width: 100%;
+      height: 30px;
+    }
+    input[type="submit"]{
+      width: 100%;
+      height: 30px;
+    }
+  }
+  

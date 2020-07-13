@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Sign-Up form complete validation</title>
+    <link rel="stylesheet" href="master.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+     integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ"
+     crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="main-div">
+            <h2 class="heading">Sign-Up Form</h2>
+         <form class="signup-form">
+             <div class="row">
+             <label for="name"> Name : </label>
+             <input type="text" name="name" id="input" placeholder="Fullname" maxlength="30" />
+             <div class="fix"></div>
+             </div>
+             <div class="row">
+             <label for="email"> Email : </label>
+             <input type="email" name="email" id="input" placeholder="Email Address">
+             <div class="fix"></div>
+             </div>
+             <div class="row">
+              <label for="username"> Username : </label>
+              <input type="text" name="username" id="input" placeholder="Username">
+              <div class="fix"></div>
+              </div>
+              <div class="row">
+              <label for="password"> Password : </label>
+              <input type="password" id="pass" name="password" placeholder="Password">
+              <span title="Double click to hide!" class="fa fa-eye-slash" id="eye"></span>
+              <div class="fix"></div>
+              </div>
+              <div class="row">
+              <label for="number"> Number : </label>
+              <input type="number" name="number" id="input" placeholder="Mobile Number">
+
+              <div class="fix"></div>
+              </div>
+              <input type="submit" value="Submit" id="submit">
+         </form>
+              <div class="output">
+
+              </div>
+    </div>
+     <script src="sandbox.js"></script>
+  </body>
+</html>
